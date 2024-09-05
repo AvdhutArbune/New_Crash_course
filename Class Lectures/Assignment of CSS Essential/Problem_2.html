@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .table{
+        width: 90%;
+        height: 40vh;
+        border: 6px solid black;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    .heading{
+        background-color: green;
+    }
+    .total{
+        background-color: silver;
+    }
+</style>
+<body>
+    <div >
+        <table class="table" border="1px" cellspacing="0">
+            <thead class="heading">
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price Per Unit</th>
+                    <th>Description</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Product 1</td>
+                    <td>2</td>
+                    <td>$10</td>
+                    <td>This is product 1</td>
+                    <th>20$</th>
+                </tr>
+                <tr>
+                    <td>Product 2</td>
+                    <td>3</td>
+                    <td>$20</td>
+                    <td>This is product 2</td>
+                    <th>60$</th>
+                </tr>
+                <tr class="total">
+                    <th colspan="4"style="text-align: center;">Sum</th>
+                    <th>80$</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
